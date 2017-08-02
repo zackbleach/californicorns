@@ -1,0 +1,104 @@
+<link rel="stylesheet" type="text/css" href="styles.css">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.4.3/css/bulma.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+<div class="wrapper">
+    <div class="menu">
+        <nav id="menu">
+            <div class="menu-button">
+                <input type="checkbox" id="toggle-nav"/>
+                <label id="toggle-nav-label" for="toggle-nav"><i class="fa fa-bars"></i> </label> 
+                Menu
+                <div class="box">
+                    <ul>
+                        <li id="home-link"><a href="#"><i class="icon-home"></i> Home</a></li>
+                        <li><a href="#gigs" onclick="toElement("gigs")"><i class="icon-copy"></i> Gigs</a></li>
+                        <li><a href="#video" onclick="toElement("video")"><i class="icon-file-alt"></i> Video</a></li>
+                        <li><a href="#mailinglist" onclick="toElement("mailinglist")"><i class="icon-envelope"></i> Mailing List</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="band-name">
+            <h1 class="">Californicorns</h1>
+        </div>
+    </div>
+    <div class="site">
+        <div class="post">
+            <div>
+                <h1 class="title is-1">New Album Out Now</h1>
+                <p>Original and throwback. Shredded gnar and sultry croon. The Californicorns blend classic American genres (Surf. Soul. Funk. Rock & Roll.) with a touch of contemporary nonsense. Their compositions are eclectic, climbing a wall of sound to a sweaty dance floor filled with sentimental ballads and get-your-ass-off-the-wall jams.</p>
+                <br>
+                <a class="button is-dark">Listen Now</a>
+            </div>
+        </div>
+        <div class="post" name="gigs" id="gigs">
+            <hr>
+            <div>
+                <h1 class="title is-1">Gigs</h1>
+                <table class="table">
+                    <tfoot>
+                    </tfoot>
+                    <tbody>
+                        <tr>
+                            <th>7.20.2017</th>
+                            <td>London</td>
+                            <td>Wembley Stadium</td>
+                            <td><a href="#buytickets">Buy Tickets</a></td>
+                        </tr>
+                        <tr>
+                            <th>8.20.2017</th>
+                            <td>Paris</td>
+                            <td>Le Zenith</td>
+                            <td><a href="#buytickets">Buy Tickets</a></td>
+                        </tr>
+                        <tr>
+                            <th>9.20.2017</th>
+                            <td>Berlin</td>
+                            <td>Reichstag</td>
+                            <td><a href="#buytickets">Buy Tickets</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="post" name="video" id="video">
+            <hr>
+            <div>
+                <h1 class="title is-1">Video</h1>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/I8j7XJxew7s?ecver=1" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+        <div class="post" name="mailinglist" id="mailinglist">
+            <hr>
+            <div>
+                <h1 class="title is-1">Mailing list</h1>
+                <div class="field">
+                    <div class="control has-icons-left has-icons-right">
+                        <input class="input" type="text" placeholder="you@ilovecalifornicorns.com" size="27">
+                        <span class="icon is-small is-left">
+                            <i class="fa fa-envelope"></i>
+                        </span>
+                    </div>
+                </div>
+                    <div class="control">
+                        <button class="button is-primary">Sign up!</button>
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+function toElement(el) {
+    var myDiv = document.getElementById(el);
+    myDiv.scrollTop = 0;
+}
+
+function closeMenu() {
+    var menu = document.getElementById(el);
+	z-index: 400;
+}
+
+</script>
+
