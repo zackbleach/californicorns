@@ -3,10 +3,8 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 <script src="js/smooth-scroll.js"></script>
-
-<body>
-    <div class="menu">
-        <nav id="menu">
+<body onload="randombg()">
+        <nav id="menu" class="menu">
             <div class="menu-button">
                 <input type="checkbox" id="toggle-nav"/>
                 <label id="toggle-nav-label" for="toggle-nav"><i class="fa fa-bars"></i> </label> 
@@ -15,23 +13,23 @@
                 </p>
                 <div class="box" id="box">
                     <ul>
-                        <li class="link" id="home-link"><a href="#home" onclick="scroll(0)"><i class="icon-home"></i> Home</a></li>
-                        <li class="link"><a href="#gigs" onclick="scroll(1)"><i class="icon-copy"></i> Gigs</a></li>
-                        <li class="link"><a href="#video" onclick="scroll(2)"><i class="icon-file-alt"></i> Video</a></li>
-                        <li class="link"><a href="#mailinglist" onclick="scroll(3)"><i class="icon-envelope"></i>Mailing List</a></li>
-                        <li class="link"><a href="#video" onclick="scroll(4)"><i class="icon-file-alt"></i> Video</a></li>
+                        <li class="link" id="home-link"><a href="#home" onclick="zscroll(0)"><i class="icon-home"></i> Home</a></li>
+                        <li class="link"><a href="#gigs" onclick="zscroll(1)"><i class="icon-copy"></i> Gigs</a></li>
+                        <li class="link"><a href="#video" onclick="zscroll(2)"><i class="icon-file-alt"></i> Video</a></li>
+                        <li class="link"><a href="#mailinglist" onclick="zscroll(3)"><i class="icon-envelope"></i>Mailing List</a></li>
+                        <li class="link"><a href="#video" onclick="zscroll(4)"><i class="icon-file-alt"></i> Video</a></li>
 
                    </ul>
 
                 </div>
 
             </div>
-        </nav>
+            <div class="band-name">
+                <h1 class="">Californicorns</h1>
+            </div>
 
-        <div class="band-name">
-            <h1 class="">Californicorns</h1>
-        </div>
-<div class="footer-social-icons">
+
+        <div class="footer-social-icons">
     <ul class="social-icons">
         <li><a href="" class="social-icon"> <i class="fa fa-facebook"></i></a></li>
         <li><a href="" class="social-icon"> <i class="fa fa-twitter"></i></a></li>
@@ -40,6 +38,7 @@
     </ul>
 </div>
  
+        </nav>
    </div>
     <div class="site">
 
@@ -124,7 +123,7 @@ function closeMenu() {
     document.getElementById("toggle-nav").checked = false
 }
 
-function scroll(elN) {
+function zscroll(elN) {
     // coupled to viewport in CSS :S
     var height = document.getElementById("gigs").clientHeight
     var scroll = new SmoothScroll();
@@ -135,4 +134,11 @@ function scroll(elN) {
     scroll.animateScroll(scrollDistance + 40);
     closeMenu()
 }
+
+function randombg(){
+    var random = Math.floor(Math.random() * 4) + 1;
+    var menu = document.getElementById("menu")
+    menu.style.backgroundImage = "url('images/" + random + ".jpg')"; 
+}
+
 </script>
