@@ -5,6 +5,7 @@
     min-width: 10vw;
 }
 .player {
+    padding-top: 9vh;
     display: inline-block;
     width: 45vw;
 }
