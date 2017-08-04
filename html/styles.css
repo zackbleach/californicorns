@@ -11,7 +11,7 @@
 }
 .logo {
     position: relative;
-    top: -10px;
+    top: -35px;
 }
 .logo img {
     border-radius: 50%;
@@ -366,8 +366,6 @@ li { list-style: none; }
         margin-top: 100px;
     }
     .logo {
-        top: auto;
-        margin-top: 20px;
         margin-bottom: 30px;
     }
 
