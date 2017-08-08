@@ -306,22 +306,6 @@ li { list-style: none; }
     -moz-transform: scale(1);
     -ms-transform: scale(1);
 }
-
-@media screen and ( max-height: 550px ) { 
-    #menu ul {
-        top: 10%;
-        text-align: center;
-    }
-    #menu li.link { 
-        display: inline-block;
-        text-align: center;
-    }
-   .logo {
-        top: 5px;
-    }
-
-}
-
 @media screen and ( max-width:1103px ) { 
     .post {
         padding: 40px;
@@ -384,24 +368,63 @@ li { list-style: none; }
         top: 10%;
         text-align: center;
     }
-    #menu li.link { 
-        display: inline-block;
-        text-align: center;
-    }
+   
     #menu li a i { 
         font-size: 48px;
     }
+    #menu li.link a { 
+        font-size: 2em;
+    }
     .profile{
         margin: 10px;
-        width: 300px;
-        height:300px;
         opacity: 1;
     }
     .bandcamp {
         width:700px;
     }
+    .link{
+        font-size: 78px;
+    }
 
 }
+
+@media screen and ( max-height: 750px ) { 
+    #menu ul {
+        top: 10%;
+        text-align: center;
+    }
+    #menu li.link { 
+    }
+    #menu li.link a { 
+        font-size: 1em;
+    }
+
+   .logo {
+        top: 5px;
+    }
+
+}
+
+@media screen and ( max-height: 630px ) { 
+    #menu ul {
+        top: 10%;
+        text-align: center;
+    }
+    #menu li.link { 
+        display: inline-block;
+        text-align: center;
+    }
+    #menu li.link a { 
+        font-size: 1em;
+    }
+
+   .logo {
+        top: 5px;
+    }
+
+}
+
+
    }
 }
 
