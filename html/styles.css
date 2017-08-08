@@ -23,6 +23,12 @@
     opacity: 1;
 }
 
+.bandcamp {
+    width:500px;
+}
+
+
+
 .column {
     padding: 0;
 }
@@ -391,6 +397,9 @@ li { list-style: none; }
         width: 300px;
         height:300px;
         opacity: 1;
+    }
+    .bandcamp {
+        width:700px;
     }
 
 
