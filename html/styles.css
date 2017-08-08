@@ -406,6 +406,12 @@ li { list-style: none; }
 }
 
 @media screen and ( max-height: 630px ) { 
+    #menu {
+        min-height: 350px;
+    }
+    .band-name{
+        height: 70%
+    }
     #menu ul {
         top: 20%;
         text-align: center;
