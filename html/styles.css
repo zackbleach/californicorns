@@ -308,7 +308,6 @@ li { list-style: none; }
 }
 @media screen and ( max-width:1103px ) { 
     .post {
-        padding: 40px;
         height: auto;
         margin-bottom: 100px;
         margin-top: 100px;
