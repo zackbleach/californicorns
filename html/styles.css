@@ -407,12 +407,14 @@ li { list-style: none; }
 
 @media screen and ( max-height: 630px ) { 
     #menu ul {
-        top: 10%;
+        top: 20%;
         text-align: center;
     }
     #menu li.link { 
         display: inline-block;
         text-align: center;
+        
+    
     }
     #menu li.link a { 
         font-size: 1em;
