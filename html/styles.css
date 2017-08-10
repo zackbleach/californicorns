@@ -316,7 +316,11 @@ li { list-style: none; }
         height: auto;
         margin-bottom: 100px;
         margin-top: 100px;
+        font-size: 3em;
+    }
+    .post-body {
         font-size: 2em;
+        text-align: left;
     }
     td {
         font-size: 2em;
@@ -324,11 +328,6 @@ li { list-style: none; }
     th {
         font-size: 2em;
     }
- 
-    .post {
-        height: auto;
-        margin-bottom: 100px;
-        margin-top: 100px;
     }
     .logo {
         margin-bottom: 30px;
@@ -372,7 +371,6 @@ li { list-style: none; }
         top: 10%;
         text-align: center;
     }
-   
     #menu li a i { 
         font-size: 48px;
     }
