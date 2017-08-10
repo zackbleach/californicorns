@@ -2,7 +2,6 @@
     padding-left: 600px;
 }
 .title {
-    min-width: 10vw;
 }
 .player {
     padding-top: 3vh;
@@ -10,7 +9,7 @@
 }
 .logo {
     position: relative;
-    top: -35px;
+    margin-bottom: 30px;
 }
 .logo img {
     border-radius: 50%;
@@ -19,7 +18,7 @@
 .profile{
     margin: 10px;
     width: 15vh;
-    height: 15vh;
+    height: 15vw;
     opacity: 1;
 }
 
@@ -138,7 +137,6 @@
 }
 
 .post {
-    display:flex;
     height:100vh;
     margin:0;
     flex-direction: column;
@@ -314,11 +312,6 @@ li { list-style: none; }
         margin-bottom: 100px;
         margin-top: 100px;
     }
-    .post {
-        height: auto;
-        margin-bottom: 100px;
-        margin-top: 100px;
-    }
     .logo {
         margin-bottom: 30px;
     }
@@ -364,7 +357,7 @@ li { list-style: none; }
         opacity: 1;
     }
     .bandcamp {
-        width:700px;
+        width:auto;
     }
     .link{
         font-size: 78px;
@@ -384,7 +377,6 @@ li { list-style: none; }
     #menu li.link a { 
         font-size: 1em;
     }
-
    .logo {
         top: 5px;
     }
