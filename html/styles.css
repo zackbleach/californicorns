@@ -2,7 +2,6 @@
     padding-left: 600px;
 }
 .title {
-    min-width: 10vw;
 }
 .player {
     padding-top: 3vh;
@@ -10,7 +9,7 @@
 }
 .logo {
     position: relative;
-    top: -35px;
+    margin-bottom: 30px;
 }
 .logo img {
     border-radius: 50%;
@@ -18,24 +17,20 @@
 
 .profile{
     margin: 10px;
-    width: 15vh;
-    height: 15vh;
+    width: 150px;
+    height: 25vh;
     opacity: 1;
 }
 
 .bandcamp {
     width:500px;
 }
-
-
-
 .column {
     padding: 0;
 }
 .name {
     margin: auto;
 }
- 
 .text-content {
     display: inline-flex;
     align-items: center;
@@ -55,6 +50,10 @@
 }
 
 .profile:hover .text-content {
+  opacity: 1;
+}
+
+.profile:focus .text-content {
   opacity: 1;
 }
 
@@ -110,6 +109,7 @@
 .menu {
     position: fixed;
     background-size: cover;
+    background-position: center top;
     height: 100vh;
     width: 600px;
     padding: 25px;
@@ -137,7 +137,6 @@
 }
 
 .post {
-    display:flex;
     height:100vh;
     margin:0;
     flex-direction: column;
@@ -148,12 +147,13 @@
     padding: 80px;
     padding-top: 20px;
     z-index:0; 
+    -webkit-text-size-adjust: 180%
 }
 
 .post-body {
     text-align: justify;
     margin-bottom: 2vh;
-    font-size: 1em;
+    font-size: 18px;
 }
 
 .footer-social-icons {
@@ -311,33 +311,10 @@ li { list-style: none; }
         height: auto;
         margin-bottom: 100px;
         margin-top: 100px;
-        font-size: 2em;
-    }
-    td {
-        font-size: 2em;
-    }
-    th {
-        font-size: 2em;
-    }
- 
-    .post {
-        height: auto;
-        margin-bottom: 100px;
-        margin-top: 100px;
     }
     .logo {
         margin-bottom: 30px;
     }
-    .input.is-small {
-        font-size: 2.0rem;
-    }
-    #micon
-    {
-
-        font-size: 2.0rem;
-    }
-
-
     .wrapper {  
         display: flex;
         flex-direction: column;
@@ -367,7 +344,6 @@ li { list-style: none; }
         top: 10%;
         text-align: center;
     }
-   
     #menu li a i { 
         font-size: 48px;
     }
@@ -376,15 +352,27 @@ li { list-style: none; }
     }
     .profile{
         margin: 10px;
+    }
+
+.profile{
+    margin: 10px;
+    width: 150px;
+    height: 250px;
+    opacity: 1;
+}
+
+    .profile:focus .text-content {
         opacity: 1;
     }
     .bandcamp {
-        width:700px;
+        width:auto;
     }
     .link{
         font-size: 78px;
     }
-
+    .input {
+        line-height: 1.0;
+    }
 }
 
 @media screen and ( max-height: 750px ) { 
@@ -397,7 +385,6 @@ li { list-style: none; }
     #menu li.link a { 
         font-size: 1em;
     }
-
    .logo {
         top: 5px;
     }
@@ -418,15 +405,18 @@ li { list-style: none; }
     #menu li.link { 
         display: inline-block;
         text-align: center;
-        
-    
     }
     #menu li.link a { 
         font-size: 1em;
     }
-
-   .logo {
+    .post {
+        height: auto;
+        margin-bottom: 100px;
+        margin-top: 100px;
+    }
+    .logo {
         top: 5px;
+        margin-bottom: 30px;
     }
 
 }
