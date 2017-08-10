@@ -138,6 +138,7 @@
 }
 
 .post {
+    overflow-y: hidden;
     height:100vh;
     margin:0;
     flex-direction: column;
