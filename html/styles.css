@@ -382,6 +382,9 @@ li { list-style: none; }
     .profile{
         margin: 10px;
     }
+    .profile:hover .text-content {
+        opacity: 1;
+    }
     .bandcamp {
         width:700px;
     }
