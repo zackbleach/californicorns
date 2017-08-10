@@ -377,7 +377,6 @@ li { list-style: none; }
     }
     .profile{
         margin: 10px;
-        opacity: 1;
     }
     .bandcamp {
         width:700px;
@@ -419,8 +418,6 @@ li { list-style: none; }
     #menu li.link { 
         display: inline-block;
         text-align: center;
-        
-    
     }
     #menu li.link a { 
         font-size: 1em;
