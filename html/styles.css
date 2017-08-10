@@ -26,16 +26,12 @@
 .bandcamp {
     width:500px;
 }
-
-
-
 .column {
     padding: 0;
 }
 .name {
     margin: auto;
 }
- 
 .text-content {
     display: inline-flex;
     align-items: center;
@@ -325,9 +321,6 @@ li { list-style: none; }
     }
     .logo {
         margin-bottom: 30px;
-    }
-    .input.is-small {
-        font-size: 2.0rem;
     }
     #micon
     {
