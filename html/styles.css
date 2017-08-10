@@ -353,6 +353,14 @@ li { list-style: none; }
     .profile{
         margin: 10px;
     }
+
+.profile{
+    margin: 10px;
+    width: 150px;
+    height: 250px;
+    opacity: 1;
+}
+
     .profile:focus .text-content {
         opacity: 1;
     }
