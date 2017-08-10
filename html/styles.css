@@ -311,7 +311,7 @@ li { list-style: none; }
     -moz-transform: scale(1);
     -ms-transform: scale(1);
 }
-@media screen and ( max-width:1103px ) { 
+@media screen and ( max-width:1103px ) and (min-device-pixel-ratio: 2){ 
     .post {
         height: auto;
         margin-bottom: 100px;
