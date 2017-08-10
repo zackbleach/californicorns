@@ -5,6 +5,7 @@
 }
 .player {
     padding-top: 3vh;
+    width: 100%;
     display: inline-block;
 }
 .logo {
