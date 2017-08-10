@@ -58,6 +58,10 @@
   opacity: 1;
 }
 
+.profile:focus .text-content {
+  opacity: 1;
+}
+
 #meet{
 }
 
@@ -377,6 +381,7 @@ li { list-style: none; }
     }
     .profile{
         margin: 10px;
+        opacity: 1;
     }
     .bandcamp {
         width:700px;
