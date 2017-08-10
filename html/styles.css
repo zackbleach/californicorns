@@ -153,6 +153,7 @@
     padding: 80px;
     padding-top: 20px;
     z-index:0; 
+    -webkit-text-size-adjust: 200%
 }
 
 .post-body {
