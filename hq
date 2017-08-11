@@ -1,0 +1,432 @@
+[33mcommit dea63a3bae5ba7fbbc5d5a17a76be7c176379949[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31mdokku/master[m[33m)[m
+Author: Zack Bleach <zackbleach@gmail.com>
+Date:   Thu Aug 10 18:01:27 2017 -0700
+
+    styles
+
+[33mcommit e4f746e8fafbc9607e5479c30979f974cfbf1474[m
+Author: Zack Bleach <zackbleach@gmail.com>
+Date:   Thu Aug 10 17:49:42 2017 -0700
+
+    śtyles
+
+[33mcommit f153fe97af53961f741361f3d655cb043fa806ed[m
+Author: Zack Bleach <zackbleach@gmail.com>
+Date:   Thu Aug 10 17:31:16 2017 -0700
+
+    styles
+
+[33mcommit 788d5ae63d4f7034890d90ec4d9829072151941b[m
+Author: Zack Bleach <zackbleach@gmail.com>
+Date:   Thu Aug 10 17:07:51 2017 -0700
+
+    śtyles
+
+[33mcommit 298ffeac5bc09011d85011ec121a1ca3c0810267[m
+Author: Zack Bleach <zackbleach@gmail.com>
+Date:   Thu Aug 10 16:46:10 2017 -0700
+
+    śtyles
+
+[33mcommit ecaca017b90b924734ef7dc2406e7c85d5f2e160[m
+Author: Zack Bleach <zackbleach@gmail.com>
+Date:   Thu Aug 10 16:10:12 2017 -0700
+
+    styles
+
+[33mcommit 2f98abecb62ec68f761319223e009482e9ace530[m
+Author: Zack Bleach <zack@stripe.com>
+Date:   Thu Aug 10 15:59:29 2017 -0700
+
+    added back in div
+
+[33mcommit 04312050957cdc2bc15b2cff85a2060c27bd33e7[m
+Merge: 0753ac4 a536235
+Author: Zack Bleach <zack@stripe.com>
+Date:   Thu Aug 10 15:56:48 2017 -0700
+
+    Merge branch 'master' of 138.68.20.251:californicorns
+
+[33mcommit 0753ac4cfe4448d3fe5dfb1a52cbd5988a0acfa6[m
+Author: Zack Bleach <zack@stripe.com>
+Date:   Thu Aug 10 15:56:30 2017 -0700
+
+    increased width of player
+
+[33mcommit 88313476858e919cb41a05919a31b43d1beced6f[m
+Merge: 5d46f9c 25e705f
+Author: Zack Bleach <zack@stripe.com>
+Date:   Thu Aug 10 15:50:51 2017 -0700
+
+    Merge branch 'master' of zb.github.com:zackbleach/californicorns
+
+[33mcommit a536235e6e53df524af3add1b0e4b609b3c5064c[m
+Merge: 6cba5e6 5d46f9c
+Author: Zack Bleach <zackbleach@gmail.com>
+Date:   Thu Aug 10 15:46:54 2017 -0700
+
+    Merge branch 'master' of 138.68.20.251:californicorns
+
+[33mcommit 6cba5e698bf748226089ef0e912991258d2c28b0[m
+Merge: 3d6d474 25e705f
+Author: Zack Bleach <zackbleach@gmail.com>
+Date:   Thu Aug 10 15:46:26 2017 -0700
+
+    t Merge branch 'master' of github.com:zackbleach/californicorns
+
+[33mcommit 25e705f7f495dcb43eb3216966770eda7014e576[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Merge: b7c6222 630307d
+Author: Zack Bleach <zackbleach@gmail.com>
+Date:   Thu Aug 10 15:46:11 2017 -0700
+
+    Merge pull request #4 from zackbleach/duncan-updates
+    
+    Edits to bio text and embedded player
+
+[33mcommit 3d6d474b6042d72a833e48d6acb27dee47486166[m
+Merge: 4e569f8 b7c6222
+Author: Zack Bleach <zackbleach@gmail.com>
+Date:   Thu Aug 10 15:36:19 2017 -0700
+
+    Merge branch 'master' of github.com:zackbleach/californicorns
+
+[33mcommit 630307dbb4c65937c6551d0aa2b3f5a84f16c479[m
+Author: Rupert Murloc <duncanwold@gmail.com>
+Date:   Thu Aug 10 15:28:15 2017 -0700
+
+    Edits to bio text and embedded player
+    
+    Went with a shorter (punchier) bio and smaller player.
+
+[33mcommit 5d46f9c1bf20f5c44985db90ee2a41f93557ae99[m
+Merge: 900ed4e b7c6222
+Author: Zack Bleach <zack@stripe.com>
+Date:   Thu Aug 10 11:31:43 2017 -0700
+
+    Merge branch 'master' of zb.github.com:zackbleach/californicorns
+
+[33mcommit b7c62221a9a696086ff2f8ff60708eca3caea757[m
+Merge: 56bc3b0 f94dd46
+Author: Zack Bleach <zackbleach@gmail.com>
+Date:   Thu Aug 10 11:31:15 2017 -0700
+
+    Merge pull request #2 from zackbleach/duncan-updates
+    
+    Resized, and cropped so these are smaller files
+
+[33mcommit f94dd46442ad2646a5a006dc0c5bc2da1f92f985[m
+Author: Rupert Murloc <duncanwold@gmail.com>
+Date:   Thu Aug 10 11:17:41 2017 -0700
+
+    Resized, and cropped so these are smaller files
+
+[33mcommit 900ed4e1a27fe2f803520b14cb50fdf8e0e3c1e0[m
+Author: Zack Bleach <zack@stripe.com>
+Date:   Wed Aug 9 21:15:26 2017 -0700
+
+    styles
+
+[33mcommit 25bcbb84fff32390c18aed0fff37e6078cfe6806[m
+Author: Zack Bleach <zack@stripe.com>
+Date:   Wed Aug 9 21:08:05 2017 -0700
+
+    styles
+
+[33mcommit a3d9aee2c8f45dcbb3cd79934a496637aa22d0f6[m
+Author: Zack Bleach <zack@stripe.com>
+Date:   Wed Aug 9 21:01:56 2017 -0700
+
+    styles
+
+[33mcommit 1db79e22cc80c692423288d380ffd55576193101[m
+Author: Zack Bleach <zack@stripe.com>
+Date:   Wed Aug 9 20:58:23 2017 -0700
+
+    dokku
+
+[33mcommit 66654eb8b09c25890508c05d8fffb3aae80b4c84[m
+Author: Zack Bleach <zack@stripe.com>
+Date:   Wed Aug 9 20:55:13 2017 -0700
+
+    styles
+
+[33mcommit 48e7d7f6806c7de20b9b99ac216ce4698dace6c8[m
+Author: Zack Bleach <zack@stripe.com>
+Date:   Wed Aug 9 20:34:52 2017 -0700
+
+    styles
+
+[33mcommit 17c4dad8b306eac8261817799292b9be362f5a87[m
+Author: Zack Bleach <zack@stripe.com>
+Date:   Wed Aug 9 20:32:39 2017 -0700
+
+    styles
+
+[33mcommit 57b5cdfbb3ee6033bbc93b80bef0b178f54eb712[m
+Author: Zack Bleach <zack@stripe.com>
+Date:   Wed Aug 9 20:16:53 2017 -0700
+
+    styles\
+
+[33mcommit d9529bff01c1a0b12279349ed8347fac2b578219[m
+Author: Zack Bleach <zack@stripe.com>
+Date:   Wed Aug 9 19:55:57 2017 -0700
+
+    micon
+
+[33mcommit 9210e98920fdf14552def8febec7f4a32b5b4b28[m
+Author: Zack Bleach <zack@stripe.com>
+Date:   Wed Aug 9 19:48:50 2017 -0700
+
+    styles
+
+[33mcommit 7784ce9c93be0c2e11429841367d612f395e1e45[m
+Author: Zack Bleach <zack@stripe.com>
+Date:   Wed Aug 9 19:45:37 2017 -0700
+
+    styles
+
+[33mcommit d448d21e0ffecc6956413d36f5a4a63e9890cd5a[m
+Author: Zack Bleach <zack@stripe.com>
+Date:   Wed Aug 9 19:41:50 2017 -0700
+
+    styles
+
+[33mcommit 028bcc892590060fab93bb1a8d7570c692493410[m
+Author: Zack Bleach <zack@stripe.com>
+Date:   Wed Aug 9 19:32:32 2017 -0700
+
+    styles
+
+[33mcommit 79048a70e7b9be64d4742f669083ebbbc6219f69[m
+Author: Zack Bleach <zack@stripe.com>
+Date:   Wed Aug 9 19:01:33 2017 -0700
+
+    styles
+
+[33mcommit e16cfcd3ced04b02da6ae53ed1ec1b93e91c98b3[m
+Author: Zack Bleach <zack@stripe.com>
+Date:   Wed Aug 9 18:50:09 2017 -0700
+
+    font size
+
+[33mcommit ca959bf4ebf30704b1dd2211c0ae53db01aa8603[m
+Author: Zack Bleach <zack@stripe.com>
+Date:   Wed Aug 9 18:46:44 2017 -0700
+
+    styles
+
+[33mcommit ba77d4f14b03711f087999487851e81d9f7a0d66[m
+Author: Zack Bleach <zack@stripe.com>
+Date:   Wed Aug 9 18:43:25 2017 -0700
+
+    device-width
+
+[33mcommit 9c4e88a8371362b02483e09e9ff04c57aa823004[m
+Author: Zack Bleach <zack@stripe.com>
+Date:   Wed Aug 9 18:39:45 2017 -0700
+
+    styles
+
+[33mcommit 666cddbc5916fc27565c18161bf0392fe7e5ce19[m
+Author: Zack Bleach <zack@stripe.com>
+Date:   Wed Aug 9 18:32:28 2017 -0700
+
+    styles
+
+[33mcommit 5c9362c1b26d6d0e17e0ac4e6ac1941b423ec7f0[m
+Author: Zack Bleach <zack@stripe.com>
+Date:   Wed Aug 9 18:26:30 2017 -0700
+
+    styles
+
+[33mcommit 67e3e7f2e93e8e528ddf34d32a67ca062e015062[m
+Author: Zack Bleach <zack@stripe.com>
+Date:   Wed Aug 9 18:24:48 2017 -0700
+
+    styles
+
+[33mcommit dce340d7c604d78bfc9f03f8d73956366fee43ed[m
+Author: Zack Bleach <zack@stripe.com>
+Date:   Wed Aug 9 18:22:32 2017 -0700
+
+    onclick
+
+[33mcommit 49adfd09c99929d63da475750afe9638cfa69fdf[m
+Author: Zack Bleach <zack@stripe.com>
+Date:   Wed Aug 9 18:15:26 2017 -0700
+
+    styles
+
+[33mcommit 776d48718af3c9a331f3e861bc71c7436d56dc9c[m
+Author: Zack Bleach <zack@stripe.com>
+Date:   Wed Aug 9 18:10:39 2017 -0700
+
+    styles
+
+[33mcommit f1e8f0214a16c1d74404b12366c25e20fcfdb90b[m
+Author: Zack Bleach <zack@stripe.com>
+Date:   Wed Aug 9 18:03:20 2017 -0700
+
+    styles
+
+[33mcommit 56bc3b0d8bb3cfbd501a90278b6ff1bcb5944ab6[m
+Merge: b60a12b fd3fc83
+Author: Zack Bleach <zackbleach@gmail.com>
+Date:   Wed Aug 9 18:02:02 2017 -0700
+
+    Merge pull request #1 from zackbleach/gigs-update
+    
+    Updated "Buy Tickets" to say "On Sale Soon"
+
+[33mcommit fd3fc832e9d1a93a72167e2e2fffc6b8f8f9ab67[m
+Author: Rupert Murloc <duncanwold@gmail.com>
+Date:   Wed Aug 9 17:57:57 2017 -0700
+
+    Updated \"Buy Tickets\" to say \"On Sale Soon\"
+
+[33mcommit f5332eef358adf814f9433cc4b70ef25868749a9[m
+Author: Zack Bleach <zack@stripe.com>
+Date:   Wed Aug 9 17:50:38 2017 -0700
+
+    styles
+
+[33mcommit 2c23505e33a22287ad122d05820dc19cfc23251f[m
+Author: Zack Bleach <zack@stripe.com>
+Date:   Wed Aug 9 17:46:51 2017 -0700
+
+    styles
+
+[33mcommit 4e569f8f55cd61853d9c5712e05ab8ec81007ea7[m
+Author: Zack Bleach <zackbleach@gmail.com>
+Date:   Mon Aug 7 21:00:52 2017 -0700
+
+    styles
+
+[33mcommit df81eb3678ed1ed678661d89b1012a16b1115c09[m
+Author: Zack Bleach <zackbleach@gmail.com>
+Date:   Mon Aug 7 20:58:51 2017 -0700
+
+    styles
+
+[33mcommit c3f01611bc426703d2d1d9309036cdf51ba3e170[m
+Author: Zack Bleach <zackbleach@gmail.com>
+Date:   Mon Aug 7 20:51:42 2017 -0700
+
+    styles
+
+[33mcommit b60a12b4bb24c6f2ed5b0405bc9fb8e5bdc5608d[m
+Author: Zack Bleach <zackbleach@gmail.com>
+Date:   Mon Aug 7 20:37:05 2017 -0700
+
+    styles
+
+[33mcommit db73b9061b4bdb9afcfc876d0d30198541f9220e[m
+Author: Zack Bleach <zackbleach@gmail.com>
+Date:   Mon Aug 7 20:07:03 2017 -0700
+
+    styles
+
+[33mcommit 545001a958ca5b1474a4ede12e7d31a82a0e6301[m
+Author: Zack Bleach <zackbleach@gmail.com>
+Date:   Mon Aug 7 20:04:53 2017 -0700
+
+    styles
+
+[33mcommit 1f361edc10c1dd566e2edec4aef927eb654428fc[m
+Merge: 41436c6 624d6f0
+Author: Zack Bleach <zackbleach@gmail.com>
+Date:   Mon Aug 7 19:54:29 2017 -0700
+
+    Merge branch 'master' of 138.68.20.251:californicorns
+
+[33mcommit 41436c6a1b3e70289f5299916517063f5626d72b[m
+Author: Zack Bleach <zackbleach@gmail.com>
+Date:   Mon Aug 7 19:54:02 2017 -0700
+
+    styles
+
+[33mcommit 624d6f0abb448d194c8bdf14217360209038d397[m
+Author: Zack Bleach <zack@stripe.com>
+Date:   Fri Aug 4 09:51:31 2017 -0700
+
+    styles
+
+[33mcommit 06835f5e3c5170b53ac533523e0256831327ab51[m
+Merge: 03fe8eb 72c0a53
+Author: Zack Bleach <zack@stripe.com>
+Date:   Fri Aug 4 09:36:15 2017 -0700
+
+    Merge branch 'master' of 138.68.20.251:californicorns
+
+[33mcommit 03fe8ebb63d88453873a4a144130ccc5f015a6ad[m
+Author: Zack Bleach <zack@stripe.com>
+Date:   Fri Aug 4 09:35:57 2017 -0700
+
+    style
+
+[33mcommit 72c0a534b66497ca7e62f13215d79e5cf3038c33[m
+Author: Zack Bleach <zackbleach@gmail.com>
+Date:   Fri Aug 4 08:47:24 2017 -0700
+
+    updated styles
+
+[33mcommit 47b25c05684fb71191ea44655b8060731ae7c6dd[m
+Author: Zack Bleach <zackbleach@gmail.com>
+Date:   Fri Aug 4 08:41:21 2017 -0700
+
+    styles
+
+[33mcommit 39cb4377bef1f7bcf36bfeed841b412d3ab0b343[m
+Author: Zack Bleach <zackbleach@gmail.com>
+Date:   Fri Aug 4 08:34:36 2017 -0700
+
+    updated styles
+
+[33mcommit 8a253a9280340840eb761f608e2213e8f6e403cd[m
+Author: Zack Bleach <zackbleach@gmail.com>
+Date:   Thu Aug 3 23:56:22 2017 -0700
+
+    update styles
+
+[33mcommit b36edfff45500e57431c52d1bf105e19c0470cc8[m
+Author: Zack Bleach <zackbleach@gmail.com>
+Date:   Thu Aug 3 23:50:22 2017 -0700
+
+    update
+
+[33mcommit c13e83a1b2f9cb93bdde0e469bc0ad3d1fdec9e7[m
+Author: Zack Bleach <zackbleach@gmail.com>
+Date:   Thu Aug 3 23:47:54 2017 -0700
+
+    updates
+
+[33mcommit 087e4c3968846bfb16583322b15484414179e0f4[m
+Author: Zack Bleach <zackbleach@gmail.com>
+Date:   Thu Aug 3 23:39:38 2017 -0700
+
+    added more bg images
+
+[33mcommit 65a701e67ef69c7bb77c6b5a2899b9280d709c94[m
+Author: Zack Bleach <zackbleach@gmail.com>
+Date:   Thu Aug 3 23:18:49 2017 -0700
+
+    bunch of improvements
+
+[33mcommit 67d2ce3979faeb68dcd6be1648c167b335af2d20[m
+Author: Zack Bleach <zackbleach@gmail.com>
+Date:   Thu Aug 3 14:51:53 2017 -0700
+
+    more stuff
+
+[33mcommit 43b1420e2631dfab69682906e5b16881398aab32[m
+Author: Zack Bleach <zack@stripe.com>
+Date:   Thu Aug 3 12:46:37 2017 -0700
+
+    updates
+
+[33mcommit c1c962a7bcd85e6790f25d8fb6f4af4226d03f8a[m
+Author: Zack Bleach <zack@stripe.com>
+Date:   Wed Aug 2 12:09:10 2017 -0700
+
+    inital commit
