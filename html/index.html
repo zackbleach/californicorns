@@ -1,0 +1,214 @@
+<link href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.4.3/css/bulma.min.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="styles.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+<script src="js/smooth-scroll.js"></script>
+<body onload="randomBg()">
+    <nav id="menu" class="menu">
+        <div class="menu-button">
+            <input type="checkbox" id="toggle-nav"/>
+            <label id="toggle-nav-label" for="toggle-nav"><i class="fa fa-bars"></i> </label> 
+            <p class="menu-text">
+            Menu
+            </p>
+            <div class="box" id="box">
+                <ul>
+                    <li class="link" id="home-link"><a href="#home" onclick="zscroll(0)"><i class="icon-home"></i>Listen</a></li>
+                    <li class="link"><a href="#gigs" onclick="zscroll(1)"><i class="icon-copy"></i>Gigs</a></li>
+                    <li class="link"><a href="#mailinglist" onclick="zscroll(2)"><i class="icon-envelope"></i>Mailing List</a></li>
+                    <li class="link"><a href="#meet" onclick="zscroll(3)"><i class="icon-file-alt"></i>The Band</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="band-name">
+            <h1 class="">Californicorns</h1>
+        </div>
+        <!-- instagram, facebook, bandcamp -->
+        <div class="footer-social-icons">
+            <ul class="social-icons">
+                <li><a href="https://www.facebook.com/californicorns/" target="_blank" class="social-icon"> <i class="fa fa-facebook"></i></a></li>
+                <li><a href="http://californicorns.bandcamp.com" target="_blank" class="social-icon"> <i class="fa fa-headphones"></i></a></li>
+                <li><a href="http://instagram.com/californicorns/" target="_blank" class="social-icon"> <i class="fa fa-instagram"></i></a></li>
+            </ul>
+        </div>
+    </nav>
+    </div>
+    <div class="site">
+        <div class="post">
+            <div>
+                <div class="logo">
+                    <img src="images/logo.jpg" width=100>
+                </div>
+                <h1 class="title is-1">New Single Out Now</h1>
+                <p class="post-body is-size-1">Original and throwback. Shredded gnar and sultry croon. Californicorns are climbing a wall of sound to a big sweaty dance party filled with sentimental ballads and get-your-ass-off-the-wall jams.</p>
+                <div class="player">
+                <iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=2355947391/size=small/bgcol=ffffff/linkcol=0687f5/transparent=true/" seamless><a href="http://californicorns.bandcamp.com/album/surf-soul-party">Surf. Soul. Party. by Californicorns</a></iframe>
+                </div>
+                </div>
+        </div>
+        <div class="post" name="gigs" id="gigs">
+            <div>
+                <h1 class="title is-1">Gigs</h1>
+                <table class="table is-medium">
+                    <tfoot>
+                    </tfoot>
+                    <tbody>
+                        <tr>
+                            <th>31.12.2017</th>
+                            <td>S.F</td>
+                            <td>Piano Fight</td>
+                            <td>On Sale Soon</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="post" name="mailinglist" id="mailinglist">
+            <div>
+                <h1 class="title is-1">Mailing list</h1>
+                <form action="http://californicorns.us16.list-manage.com/subscribe/post?u=2bc13052a4717fc97a5ea372f&amp;id=7734329f15" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                    <div class="field is-grouped-centered">
+                        <div class="control has-icons-left has-icons-right">
+                            <input class="input is-medium" name="EMAIL" type="text" placeholder="you@ilovecalifornicorns.com" size="27" name="b_2bc13052a4717fc97a5ea372f_7734329f15" >
+                            <span class="icon is-small is-left" id="micon">
+                                <i class="fa fa-envelope" ></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="has-text-centered">
+                        <button class="button is-primary">Sign up!</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="post" name="meet" id="meet">
+            <h1 class="title is-1">The Band</h1>
+            <div class="columns ">
+                <div class="column profile" id="adam">
+                    <div class="text-content">
+                        <div class="name" onClick="return true">
+                            <b>Adam</b><br>
+                            Trumpet
+                        </div>
+                    </div>
+                </div>
+                <div class="column profile" id="andy">
+                    <div class="text-content">
+                        <div class="name" onClick="return true">
+                            <b>Andy</b><br>
+                            Sax
+                        </div>
+                    </div>
+                </div>
+                <div class="column profile" id="derricka" onClick="return true">
+                    <div class="text-content">
+                        <div class="name">
+                            <b>Derricka</b><br>
+                            Vocals
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="columns">
+                <div class="column profile" id="duncan" onClick="return true">
+                    <div class="text-content">
+                        <div class="name">
+                            <b>Duncan</b><br>
+                            Shredded Gnar
+                        </div>
+                    </div>
+                </div>
+                <div class="column profile" id="eric" onClick="return true">
+                    <div class="text-content">
+                        <div class="name">
+                            <b>Eric</b><br>
+                            Trombone
+                        </div>
+                    </div>
+                </div>
+                <div class="column profile" id="matt" onClick="return true">
+                    <div class="text-content">
+                        <div class="name">
+                            <b>Matt</b><br>
+                            Keys
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="columns">
+                <div class="column profile" id="renie" onClick="return true">
+                    <div class="text-content">
+                        <div class="name">
+                            <b>Renie</b><br>
+                            Sax
+                        </div>
+                    </div>
+                </div>
+                <div class="column profile" id="rj" onClick="return true">
+                    <div class="text-content">
+                        <div class="name">
+                            <b>RJ</b><br>
+                            Drums
+                        </div>
+                    </div>
+                </div>
+                <div class="column profile" id="rob" onClick="return true">
+                    <div class="text-content">
+                        <div class="name">
+                            <b>Rob</b><br>
+                            Sultry Croon
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="columns">
+                <div class="column profile" id="zack" onClick="return true">
+                    <div class="text-content">
+                        <div class="name">
+                            <b>Zack</b><br>
+                            Bass
+                        </div>
+                    </div>
+                </div>
+                <div class="column profile">
+                </div>
+                <div class="column profile">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script>
+function closeMenu() {
+    document.getElementById("toggle-nav").checked = false
+}
+
+function zscroll(elN) {
+    // coupled to viewport in CSS :S
+    //because I know the heights of all of the divs I can make this precise
+    var height = document.getElementById("gigs").clientHeight
+    var scroll = new SmoothScroll();
+    var scrollDistance = height*elN
+    if (document.documentElement.clientWidth < 1024) {
+        scrollDistance = scrollDistance + (document.getElementById("gigs").clientHeight * 3 ) + 50
+    }
+    else if (document.documentElement.clientWidth < 1103) {
+        scrollDistance = scrollDistance + (document.getElementById("gigs").clientHeight * 3 )
+    }
+
+    if (elN == 0) {
+        scroll.animateScroll(scrollDistance);
+    } else {
+        scroll.animateScroll(scrollDistance + 40);
+    }
+    closeMenu()
+}
+
+function randomBg(){
+    //TODO: https://stackoverflow.com/questions/24944925/background-image-jumps-when-address-bar-hides-ios-android-mobile-chrome/25071131#250711310
+    var random = Math.floor(Math.random() * 6) + 1;
+    var menu = document.getElementById("menu")
+    menu.style.backgroundImage = "url('images/" + random + ".jpg')"; 
+}
+</script>
