@@ -311,6 +311,10 @@ li { list-style: none; }
     -ms-transform: scale(1);
 }
 @media screen and ( max-width:1103px ) { 
+    ul.social-icons {
+        z-index: 0;
+        margin-top: 10px;
+    }
     .post {
         height: auto;
         margin-bottom: 100px;
@@ -420,7 +424,6 @@ li { list-style: none; }
 
 }
 
-
-   }
+#close{
+    display: none;
 }
-

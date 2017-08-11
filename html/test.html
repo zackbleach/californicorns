@@ -7,7 +7,8 @@
     <nav id="menu" class="menu">
         <div class="menu-button">
             <input type="checkbox" id="toggle-nav"/>
-            <label id="toggle-nav-label" for="toggle-nav"><i class="fa fa-bars"></i> </label> 
+            <label id="toggle-nav-label" for="toggle-nav">
+                <i id="open" class="fa fa-bars"></i> </label> 
             <p class="menu-text">
             Menu
             </p>
@@ -182,6 +183,7 @@
 <script>
 function closeMenu() {
     document.getElementById("toggle-nav").checked = false
+
 }
 
 function isMobile() {
