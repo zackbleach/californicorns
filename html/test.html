@@ -207,6 +207,7 @@ function zscroll(elN) {
     var mailing = document.getElementById("mailinglist").clientHeight
     var meet = document.getElementById("meet").clientHeight
     var heights = [listen, gig, mailing, meet]
+    var menu = document.getElementById("menu").clientHeight
     var scroll = new SmoothScroll();
     var scrollDistance = heights.slice(0, elN).reduce(
         function(a, b) { return a + b; }, 0
@@ -216,7 +217,7 @@ function zscroll(elN) {
         //scrollDistance = scrollDistance - (gig/3)
     }
     if (isMobile()) {
-        scrollDistance = scrollDistance * 2;
+        scrollDistance = scrollDistance + menu;
     }
     scroll.animateScroll(scrollDistance);
     closeMenu()
