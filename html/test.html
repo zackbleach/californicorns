@@ -217,7 +217,7 @@ function zscroll(elN) {
         //scrollDistance = scrollDistance - (gig/3)
     }
     if (isMobile()) {
-        scrollDistance = scrollDistance + menu;
+        scrollDistance = scrollDistance + menu + 50;
     }
     scroll.animateScroll(scrollDistance);
     closeMenu()
