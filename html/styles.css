@@ -377,6 +377,9 @@ li { list-style: none; }
     .input {
         line-height: 1.0;
     }
+    .button {
+        height: auto;
+    }
 }
 
 @media screen and ( max-height: 750px ) { 
