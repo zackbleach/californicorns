@@ -11,7 +11,7 @@
     display: inline-block;
 }
 .logo {
-    margin-top: 15vh;
+    margin-top: 5vh;
     position: relative;
     margin-bottom: 30px;
 }
@@ -157,7 +157,7 @@
 
 .post-body {
     text-align: justify;
-    margin-bottom: 2vh;
+    margin-bottom: 1vh;
     font-size: 18px;
 }
 
