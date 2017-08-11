@@ -13,7 +13,7 @@
             </p>
             <div class="box" id="box">
                 <ul>
-                    <li class="link" id="home-link"><a href="#home" onclick="zscroll(0)"><i class="icon-home"></i>Listen</a></li>
+                    <li class="link"><a href="#listen" onclick="zscroll(0)"><i class="icon-home"></i>Listen</a></li>
                     <li class="link"><a href="#gigs" onclick="zscroll(1)"><i class="icon-copy"></i>Gigs</a></li>
                     <li class="link"><a href="#mailinglist" onclick="zscroll(2)"><i class="icon-envelope"></i>Mailing List</a></li>
                     <li class="link"><a href="#meet" onclick="zscroll(3)"><i class="icon-file-alt"></i>The Band</a></li>
@@ -34,7 +34,7 @@
     </nav>
     </div>
     <div class="site">
-        <div class="post">
+        <div class="post" id="listen">
             <div>
                 <div class="logo">
                     <img src="unnamed.jpg" width=100>
@@ -187,21 +187,20 @@ function closeMenu() {
 function zscroll(elN) {
     // coupled to viewport in CSS :S
     //because I know the heights of all of the divs I can make this precise
-    var height = document.getElementById("gigs").clientHeight
+    var listen = document.getElementById("listen").clientHeight
+    var gig = document.getElementById("gigs").clientHeight
+    var mailing = document.getElementById("mailinglist").clientHeight
+    var meet = document.getElementById("meet").clientHeight
+    var heights = [listen, gig, mailing, meet]
     var scroll = new SmoothScroll();
-    var scrollDistance = height*elN
-    if (document.documentElement.clientWidth < 1024) {
-        scrollDistance = scrollDistance + (document.getElementById("gigs").clientHeight * 3 ) + 50
+    var scrollDistance = heights.slice(0, elN).reduce(
+        function(a, b) { return a + b; }, 0
+    );
+    if (elN == 1 || elN == 2)
+    {
+        //scrollDistance = scrollDistance - (gig/3)
     }
-    else if (document.documentElement.clientWidth < 1103) {
-        scrollDistance = scrollDistance + (document.getElementById("gigs").clientHeight * 3 )
-    }
-
-    if (elN == 0) {
-        scroll.animateScroll(scrollDistance);
-    } else {
-        scroll.animateScroll(scrollDistance + 40);
-    }
+    scroll.animateScroll(scrollDistance);
     closeMenu()
 }
 
@@ -211,4 +210,15 @@ function randomBg(){
     var menu = document.getElementById("menu")
     menu.style.backgroundImage = "url('images/" + random + ".jpg')"; 
 }
+</script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-11048950-16', 'auto');
+  ga('send', 'pageview');
+
 </script>
