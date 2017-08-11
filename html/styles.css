@@ -22,7 +22,7 @@
     margin: 5px;
     opacity: 1;
     width: 15vh;
-    height: 20vh;
+    height: 10vw;
 }
 
 .bandcamp {
@@ -356,15 +356,9 @@ li { list-style: none; }
         font-size: 2em;
     }
     .profile{
-        margin: 10px;
+        height: 20vw;
+        opacity: 1;
     }
-
-.profile{
-    margin: 10px;
-    width: 150px;
-    height: 250px;
-    opacity: 1;
-}
 
     .profile:focus .text-content {
         opacity: 1;
