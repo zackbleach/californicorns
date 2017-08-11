@@ -184,6 +184,21 @@ function closeMenu() {
     document.getElementById("toggle-nav").checked = false
 }
 
+function isMobile() {
+  var userAgent = navigator.userAgent || navigator.vendor || window.opera;
+    // iOS detection from: http://stackoverflow.com/a/9039885/177710
+    if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+        return true;
+    }
+    else if (/android/i.test(userAgent)) {
+        return true;
+    }
+    else if (/windows phone/i.test(userAgent)) {
+        return true;
+    }
+    return false;
+}
+
 function zscroll(elN) {
     // coupled to viewport in CSS :S
     //because I know the heights of all of the divs I can make this precise
@@ -199,6 +214,9 @@ function zscroll(elN) {
     if (elN == 1 || elN == 2)
     {
         //scrollDistance = scrollDistance - (gig/3)
+    }
+    if (isMobile() {
+        scrollDistance = scrollDistance * 2;
     }
     scroll.animateScroll(scrollDistance);
     closeMenu()
