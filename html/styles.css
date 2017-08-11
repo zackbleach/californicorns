@@ -7,6 +7,7 @@
     text-align: center;
     padding-top: 3vh;
     width: 100%;
+    max-width: 700px;
     display: inline-block;
 }
 .logo {
