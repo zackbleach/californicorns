@@ -20,10 +20,11 @@
 }
 
 .profile{
-    margin: 5px;
+    margin: auto;
     opacity: 1;
-    width: 15vh;
-    height: 10vw;
+    width: 125px;
+    height: 125px;
+    margin: 5px;
 }
 
 .bandcamp {
@@ -355,16 +356,11 @@ li { list-style: none; }
         text-align: center;
     }
     #menu li a i { 
-        font-size: 48px;
+        font-size: 36px;
     }
     #menu li.link a { 
         font-size: 2em;
     }
-    .profile{
-        height: 20vw;
-        opacity: 1;
-    }
-
     .profile:focus .text-content {
         opacity: 1;
     }
@@ -372,7 +368,7 @@ li { list-style: none; }
         width:auto;
     }
     .link{
-        font-size: 78px;
+        font-size: 60px;
     }
     .input {
         line-height: 1.0;
