@@ -2,6 +2,8 @@
 <link rel="stylesheet" type="text/css" href="styles.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+<link rel="shortcut icon" href="images/logo.jpg" type="image/x-icon">
+<link rel="icon" href="images/logo.jpg" type="image/x-icon">
 <script src="js/smooth-scroll.js"></script>
 <body onload="randomBg()">
     <nav id="menu" class="menu">
@@ -21,7 +23,7 @@
             </div>
         </div>
         <div class="band-name">
-            <h1 class="">Californicorns</h1>
+            <h1 class="is-1">Californicorns</h1>
         </div>
         <!-- instagram, facebook, bandcamp -->
         <div class="footer-social-icons">
@@ -37,16 +39,16 @@
         <div class="post">
             <div>
                 <div class="logo">
-                    <img src="unnamed.jpg" width=100>
+                    <img src="images/logo.jpg" width=100>
                 </div>
                 <h1 class="title is-1">New Single Out Now</h1>
                 <p class="post-body is-size-1">Original and throwback. Shredded gnar and sultry croon. Californicorns are climbing a wall of sound to a big sweaty dance party filled with sentimental ballads and get-your-ass-off-the-wall jams.</p>
                 <div class="player">
-                <iframe style="border: 0; width: 200px; height: 314px;" src="https://bandcamp.com/EmbeddedPlayer/track=426462746/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="http://californicorns.bandcamp.com/track/tyco">TYCO by Californicorns</a></iframe>            </div>
+                    <iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/track=426462746/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless="">&lt;a href="http://californicorns.bandcamp.com/track/tyco"&gt;TYCO by Californicorns&lt;/a&gt;</iframe>
                 </div>
+            </div>
         </div>
         <div class="post" name="gigs" id="gigs">
-            <hr>
             <div>
                 <h1 class="title is-1">Gigs</h1>
                 <table class="table is-medium">
@@ -56,7 +58,7 @@
                         <tr>
                             <th>31.12.2017</th>
                             <td>S.F</td>
-                            <td>Piano Fight</td>
+                            <td>PianoFight</td>
                             <td>On Sale Soon</td>
                         </tr>
                     </tbody>
@@ -64,118 +66,139 @@
             </div>
         </div>
         <div class="post" name="mailinglist" id="mailinglist">
-            <hr>
             <div>
                 <h1 class="title is-1">Mailing list</h1>
                 <form action="http://californicorns.us16.list-manage.com/subscribe/post?u=2bc13052a4717fc97a5ea372f&amp;id=7734329f15" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
                     <div class="field is-grouped-centered">
                         <div class="control has-icons-left has-icons-right">
-                            <input class="input is-small" name="EMAIL" type="text" placeholder="you@ilovecalifornicorns.com" size="27" name="b_2bc13052a4717fc97a5ea372f_7734329f15" >
+                            <input class="input is-medium" name="EMAIL" type="text" placeholder="you@ilovecalifornicorns.com" size="27" name="b_2bc13052a4717fc97a5ea372f_7734329f15" >
                             <span class="icon is-small is-left" id="micon">
-                                <i class="fa fa-envelope" id="micon"></i>
+                                <i class="fa fa-envelope" ></i>
                             </span>
                         </div>
                     </div>
                     <div class="has-text-centered">
-                        <button class="button is-primary" id="micon">Sign up!</button>
+                        <button class="button is-primary">Sign up!</button>
                     </div>
                 </form>
             </div>
         </div>
         <div class="post" name="meet" id="meet">
             <h1 class="title is-1">The Band</h1>
-            <div class="columns ">
-                <div class="column profile" id="adam">
-                    <div class="text-content">
-                        <div class="name">
-                            <b>Adam</b><br>
-                            Trumpet
+            <div class="profiles">
+            <div class="columns is-mobile is-centered">
+                <div class="column is-narrow">
+                    <div id="adam" class="profile">
+                        <div class="text-content">
+                            <div class="name" onClick="return true">
+                                <b>Adam</b><br>
+                                Trumpet
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="column profile" id="andy">
+                <div class="column is-narrow">
+                <div id="andy" class="profile">
                     <div class="text-content">
-                        <div class="name">
+                        <div class="name" onClick="return true">
                             <b>Andy</b><br>
                             Sax
                         </div>
                     </div>
+                    </div>
                 </div>
-                <div class="column profile" id="derricka">
+                <div class="column is-narrow">
+                <div class="profile" id="derricka" onClick="return true">
                     <div class="text-content">
                         <div class="name">
                             <b>Derricka</b><br>
                             Vocals
                         </div>
                     </div>
+                    </div>
                 </div>
             </div>
-            <div class="columns">
-                <div class="column profile" id="duncan">
+            <div class="columns is-mobile is-centered">
+                <div class="column is-narrow">
+                <div class="profile" id="duncan" onClick="return true">
                     <div class="text-content">
                         <div class="name">
                             <b>Duncan</b><br>
                             Shredded Gnar
                         </div>
                     </div>
+                    </div>
                 </div>
-                <div class="column profile" id="eric">
+                <div class="column is-narrow">
+                <div class="profile" id="eric" onClick="return true">
                     <div class="text-content">
                         <div class="name">
                             <b>Eric</b><br>
                             Trombone
                         </div>
                     </div>
+                    </div>
                 </div>
-                <div class="column profile" id="matt">
+                <div class="column is-narrow">
+                <div class="profile" id="matt" onClick="return true">
                     <div class="text-content">
                         <div class="name">
                             <b>Matt</b><br>
                             Keys
                         </div>
                     </div>
+                    </div>
                 </div>
             </div>
-            <div class="columns">
-                <div class="column profile" id="renie">
+            <div class="columns is-mobile is-centered">
+                <div class="column is-narrow">
+                <div class="profile" id="renie" onClick="return true">
                     <div class="text-content">
                         <div class="name">
                             <b>Renie</b><br>
-                            Sax
+                            Trombone
                         </div>
                     </div>
+                    </div>
                 </div>
-                <div class="column profile" id="rj">
+                <div class="column is-narrow">
+                <div class="profile" id="rj" onClick="return true">
                     <div class="text-content">
                         <div class="name">
                             <b>RJ</b><br>
                             Drums
                         </div>
                     </div>
+                    </div>
                 </div>
-                <div class="column profile" id="rob">
+                <div class="column is-narrow">
+                <div class="profile" id="rob" onClick="return true">
                     <div class="text-content">
                         <div class="name">
                             <b>Rob</b><br>
                             Sultry Croon
                         </div>
                     </div>
+                    </div>
                 </div>
             </div>
-            <div class="columns">
-                <div class="column profile" id="zack">
+            <div class="columns is-mobile is-centered">
+                <div class="column is-narrow">
+                <div class="profile" id="zack" onClick="return true">
                     <div class="text-content">
                         <div class="name">
                             <b>Zack</b><br>
                             Bass
                         </div>
                     </div>
+                    </div>
                 </div>
-                <div class="column profile">
+                <div class="column is-narrow profile">
                 </div>
-                <div class="column profile">
+                <div class="column is-narrow profile">
                 </div>
             </div>
+        </div>
         </div>
     </div>
 </body>
@@ -187,6 +210,7 @@ function closeMenu() {
 
 function zscroll(elN) {
     // coupled to viewport in CSS :S
+    //because I know the heights of all of the divs I can make this precise
     var height = document.getElementById("gigs").clientHeight
     var scroll = new SmoothScroll();
     var scrollDistance = height*elN
@@ -210,4 +234,15 @@ function randomBg(){
     var menu = document.getElementById("menu")
     menu.style.backgroundImage = "url('images/" + random + ".jpg')"; 
 }
+</script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-11048950-16', 'auto');
+  ga('send', 'pageview');
+
 </script>
