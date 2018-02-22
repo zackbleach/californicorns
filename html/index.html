@@ -255,10 +255,10 @@ function addSparkles(){
     for (i = 0; i < randomCount; i++){
         var li = document.createElement("li");
         li.className += "sparkle";
-        li.style.left = "" + getRandomInt(0, 100) + "%";
-        li.style.top = "" + getRandomInt(0, 50) + "%";
-        li.style.transform = "translate(" + getRandomInt(-10, 10) + "%," + getRandomInt(-10, 10) + "%)";
-        li.style.width = "" + getRandomInt(0, 6) + "%";
+        li.style.left = "" + getRandomInt(10, 70) + "%";
+        li.style.top = "" + getRandomInt(20, 40) + "%";
+        //li.style.transform = "translate(" + getRandomInt(-10, 10) + "%," + getRandomInt(-10, 10) + "%)";
+        li.style.width = "" + getRandomInt(2, 5) + "%";
         li.className += " sparkle" + getRandomInt(1, 5) + "";
         sparkles.appendChild(li);
     }
