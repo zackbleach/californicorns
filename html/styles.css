@@ -106,6 +106,120 @@
     background-size: cover;
 }
 
+.sparkles li {
+    background: url("images/sparkle.png") no-repeat 50%/100%;
+    height: 0;
+    opacity: 1;
+    position: fixed;
+    //animation: a 925ms infinite;
+}
+
+.sparkles li.sparkle {
+    padding-bottom: 6%;
+    width: 5%;
+}
+
+.sparkles li.sparkle1 {
+    animation: sparkleAnimation 925ms infinite;
+    -webkit-animation: sparkleAnimation 925ms infinite;
+    -moz-animation: sparkleAnimation 925ms infinite;
+    -o-animation: sparkleAnimation 925ms infinite;
+}
+
+.sparkles li.sparkle2 {
+    animation: sparkleAnimation 900ms infinite;
+    -webkit-animation: sparkleAnimation 900ms infinite;
+    -moz-animation: sparkleAnimation 900ms infinite;
+    -o-animation: sparkleAnimation 900ms infinite;
+}
+
+.sparkles li.sparkle3 {
+    animation: sparkleAnimation 875ms infinite;
+    -webkit-animation: sparkleAnimation 875ms infinite;
+    -moz-animation: sparkleAnimation 875ms infinite;
+    -o-animation: sparkleAnimation 875ms infinite;
+}
+
+.sparkles li.sparkle4 {
+    animation: sparkleAnimation 850ms infinite;
+    -webkit-animation: sparkleAnimation 850ms infinite;
+    -moz-animation: sparkleAnimation 850ms infinite;
+    -o-animation: sparkleAnimation 850ms infinite;
+}
+
+.sparkles li.sparkle5 {
+    animation: sparkleAnimation 825ms infinite;
+    -webkit-animation: sparkleAnimation 825ms infinite;
+    -moz-animation: sparkleAnimation 825ms infinite;
+    -o-animation: sparkleAnimation 825ms infinite;
+}
+
+@keyframes sparkleAnimation {
+      0% {
+          opacity: 0
+      }
+  
+      25% {
+          opacity: 0
+      }
+  
+      50% {
+          opacity: 1
+      }
+  
+      to {
+          opacity: 0
+    }
+}
+@-o-keyframes sparkleAnimation{
+      0% {
+        opacity: 0
+    }
+
+    25% {
+        opacity: 0
+    }
+
+    50% {
+        opacity: 1
+    }
+
+    to {
+        opacity: 0
+    }}
+@-moz-keyframes sparkleAnimation{
+    0% {
+        opacity: 0
+    }
+
+    25% {
+        opacity: 0
+    }
+
+    50% {
+        opacity: 1
+    }
+
+    to {
+        opacity: 0
+    }
+}
+@-webkit-keyframes sparkleAnimation{
+    0% {
+        opacity: 0
+    }
+
+    25% {
+        opacity: 0
+    }
+
+    50% {
+        opacity: 1
+    }
+
+    to {
+        opacity: 0
+    }}
 
 .menu-text {
     display: inline-block;

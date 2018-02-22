@@ -33,4 +33,3 @@ function randomBg(){
     var menu = document.getElementById("menu")
     menu.style.backgroundImage = "url('images/" + random + ".jpg')";
 }
-

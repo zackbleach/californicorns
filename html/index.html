@@ -5,11 +5,11 @@
 <link rel="shortcut icon" href="images/logo.jpg" type="image/x-icon">
 <link rel="icon" href="images/logo.jpg" type="image/x-icon">
 <script src="js/smooth-scroll.js"></script>
-<body onload="randomBg()">
+<body onload="init()">
     <nav id="menu" class="menu">
         <div class="menu-button">
             <input type="checkbox" id="toggle-nav"/>
-            <label id="toggle-nav-label" for="toggle-nav"><i class="fa fa-bars"></i> </label> 
+            <label id="toggle-nav-label" for="toggle-nav"><i class="fa fa-bars"></i> </label>
             <p class="menu-text">
             Menu
             </p>
@@ -22,8 +22,11 @@
                 </ul>
             </div>
         </div>
-        <div class="band-name">
-            <h1 class="is-1">Californicorns</h1>
+        <div class="band-name sparkles">
+            <ul id="sparklelist">
+							<h1 class="is-1">Californicorns</h1>
+							</ul>
+
         </div>
         <!-- instagram, facebook, bandcamp -->
         <div class="footer-social-icons">
@@ -34,7 +37,6 @@
             </ul>
         </div>
     </nav>
-    </div>
     <div class="site">
         <div class="post">
             <div>
@@ -238,8 +240,34 @@ function zscroll(elN) {
 function randomBg(){
     var random = Math.floor(Math.random() * 11) + 1;
     var menu = document.getElementById("menu")
-    menu.style.backgroundImage = "url('images/" + random + ".jpg')"; 
+    menu.style.backgroundImage = "url('images/" + random + ".jpg')";
 }
+
+
+function init(){
+	randomBg();
+	addSparkles();
+}
+
+function addSparkles(){
+    var randomCount = getRandomInt(5, 15);
+    var sparkles = document.getElementById("sparklelist");
+    for (i = 0; i < randomCount; i++){
+        var li = document.createElement("li");
+        li.className += "sparkle";
+        li.style.left = "" + getRandomInt(0, 100) + "%";
+        li.style.top = "" + getRandomInt(0, 50) + "%";
+        li.style.transform = "translate(" + getRandomInt(-10, 10) + "%," + getRandomInt(-10, 10) + "%)";
+        li.style.width = "" + getRandomInt(0, 6) + "%";
+        li.className += " sparkle" + getRandomInt(1, 5) + "";
+        sparkles.appendChild(li);
+    }
+}
+
+function getRandomInt(min, max) {
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
 </script>
 
 <script>
