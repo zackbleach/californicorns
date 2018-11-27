@@ -275,9 +275,15 @@ function zscroll(elN) {
 }
 
 function randomBg(){
-    var random = Math.floor(Math.random() * 11) + 1;
+    var random = getRandomInt(1, 13);
     var menu = document.getElementById("menu")
     menu.style.backgroundImage = "url('images/" + random + ".jpg')"; 
+}
+    
+function getRandomInt(min, max) {
+    min = Math.ceil(min);
+    max = Math.floor(max);
+    return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 </script>
 
