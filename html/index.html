@@ -56,15 +56,20 @@
                     </tfoot>
                     <tbody>
                         <tr>
-                            <th>19 December 2018</th>
+                            <th>30 March 2019</th>
                             <td>S.F.</td>
-                            <td><a href="https://slimspresents.com/event/camp-fire-benefit-feat-californicorns-and-flannel-gamh/?fbclid=IwAR3xD0KRaqz1I7jTg8iGIYCvoStSkII1g9_jTyt5yT1_J6-Yg_7SodqTvaU">Great American Music Hall</a></td>
+                            <td><a href="https://www.neckofthewoodssf.com/event/1830234-californicorns-san-francisco/">Neck of the Woods</a></td>
+                        </tr>
+                        <tr>
+                            <th><span style="color:#d3d3d3;">19 december 2018</th>
+                            <td><span style="color:#d3d3d3;">S.F.</td>
+                            <td><span style="color:#d3d3d3;">Great American Music Hall</a></td>
                         </tr>              
                         <tr>
                             <th><span style="color:#d3d3d3;">1 December 2018</span></th>
                             <td><span style="color:#d3d3d3;">S.F.</span></td>
                             <td><span style="color:#d3d3d3;">PianoFight</span></td>
-                        </tr>                       
+                        </tr>  
                         <tr>
                             <th><span style="color:#d3d3d3;">22 September 2018</span></th>
                             <td><span style="color:#d3d3d3;">Joshua Tree</span></td>
@@ -253,34 +258,28 @@
     </div>
 </body>
 
-<script>
+var NUMBER_OF_BACKGROUND_IMAGES = 13
+
 function closeMenu() {
     document.getElementById("toggle-nav").checked = false
 }
 
 function zscroll(elN) {
     // coupled to viewport in CSS :S
-    //because I know the heights of all of the divs I can make this precise
+    // because I know the heights of all of the divs I can make this precise
     var height = document.getElementById("gigs").clientHeight
     var scroll = new SmoothScroll();
     var scrollDistance = height*elN
     if (document.documentElement.clientWidth < 1024) {
-        scrollDistance = scrollDistance + (document.getElementById("gigs").clientHeight * 3 ) + 50
-    }
-    else if (document.documentElement.clientWidth < 1103) {
-        scrollDistance = scrollDistance + (document.getElementById("gigs").clientHeight * 3 )
+        var scrollDistance = (height*elN) + document.getElementById("menu").clientHeight
     }
 
-    if (elN == 0) {
-        scroll.animateScroll(scrollDistance);
-    } else {
-        scroll.animateScroll(scrollDistance + 40);
-    }
+    scroll.animateScroll(scrollDistance);
     closeMenu()
 }
 
 function randomBg(){
-    var random = getRandomInt(1, 13);
+    var random = getRandomInt(1, NUMBER_OF_BACKGROUND_IMAGES);
     var menu = document.getElementById("menu")
     menu.style.backgroundImage = "url('images/" + random + ".jpg')"; 
 }
