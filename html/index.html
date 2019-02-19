@@ -258,8 +258,6 @@
     </div>
 </body>
 
-var NUMBER_OF_BACKGROUND_IMAGES = 13
-
 function closeMenu() {
     document.getElementById("toggle-nav").checked = false
 }
@@ -279,7 +277,7 @@ function zscroll(elN) {
 }
 
 function randomBg(){
-    var random = getRandomInt(1, NUMBER_OF_BACKGROUND_IMAGES);
+    var random = getRandomInt(1, 13);
     var menu = document.getElementById("menu")
     menu.style.backgroundImage = "url('images/" + random + ".jpg')"; 
 }
