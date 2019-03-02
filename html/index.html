@@ -5,6 +5,7 @@
 <link rel="shortcut icon" href="images/logo.jpg" type="image/x-icon">
 <link rel="icon" href="images/logo.jpg" type="image/x-icon">
 <script src="js/smooth-scroll.js"></script>
+<script src="js/main.js"></script>
 <body onload="randomBg()">
     <nav id="menu" class="menu">
         <div class="menu-button">
@@ -256,38 +257,6 @@
         </div>
         </div>
     </div>
-</body>
-<script>
-function closeMenu() {
-    document.getElementById("toggle-nav").checked = false
-}
-
-function zscroll(elN) {
-    // coupled to viewport in CSS :S
-    // because I know the heights of all of the divs I can make this precise
-    var height = document.getElementById("gigs").clientHeight
-    var scroll = new SmoothScroll();
-    var scrollDistance = height*elN
-    if (document.documentElement.clientWidth < 1024) {
-        var scrollDistance = (height*elN) + document.getElementById("menu").clientHeight
-    }
-
-    scroll.animateScroll(scrollDistance);
-    closeMenu()
-}
-
-function randomBg(){
-    var random = getRandomInt(1, 13);
-    var menu = document.getElementById("menu")
-    menu.style.backgroundImage = "url('images/" + random + ".jpg')"; 
-}
-    
-function getRandomInt(min, max) {
-    min = Math.ceil(min);
-    max = Math.floor(max);
-    return Math.floor(Math.random() * (max - min + 1)) + min;
-}
-</script>
 
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -297,5 +266,5 @@ function getRandomInt(min, max) {
 
   ga('create', 'UA-11048950-16', 'auto');
   ga('send', 'pageview');
-
 </script>
+</body>

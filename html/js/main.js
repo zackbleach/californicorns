@@ -2,35 +2,30 @@ function closeMenu() {
     document.getElementById("toggle-nav").checked = false
 }
 
-window.addEventListener("load", randomBg());
-
-var scrollOffsets = {
-    listen: 0,
-    gigs: document.getElementById("listen").clientHeight * 0.5,
-    mailinglist: document.getElementById("listen").clientHeight * 0.5,
-    meet: 0
-}
-
 function zscroll(elN) {
-    var listen = document.getElementById("listen").clientHeight
-    var gigs = document.getElementById("gigs").clientHeight
-    var mailinglist = document.getElementById("mailinglist").clientHeight
-    var meet = document.getElementById("meet").clientHeight
+    // coupled to viewport in CSS :S
+    // because I know the heights of all of the divs I can make this precise
+    var height = document.getElementById("gigs").clientHeight
     var scroll = new SmoothScroll();
-    var heights = [listen, gigs, mailinglist, meet]
-    var offsets = [0, (window.innerHeight / 3.5), (window.innerHeight / 3.5), 0]
-    var scrollDistance = heights.slice(0, elN).reduce(
-        function(a, b) { return a + b; },
-        0
-    ) - offsets[elN]
+    var scrollDistance = height*elN
+    if (document.documentElement.clientWidth < 1024) {
+        var scrollDistance = (height*elN) + document.getElementById("menu").clientHeight
+    }
+
     scroll.animateScroll(scrollDistance);
-    console.log(offsets[elN])
     closeMenu()
 }
 
 function randomBg(){
-    var random = Math.floor(Math.random() * 13) + 1;
+    var random = getRandomInt(1, 13);
     var menu = document.getElementById("menu")
     menu.style.backgroundImage = "url('images/" + random + ".jpg')";
 }
+
+function getRandomInt(min, max) {
+    min = Math.ceil(min);
+    max = Math.floor(max);
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
 
