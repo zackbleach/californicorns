@@ -274,15 +274,15 @@ li { list-style: none; }
 }
 
 #menu li.link a {
-    border-radius: 3px;
     padding: 15px;
-    border: 1px solid transparent;
     text-decoration: none;
     font-size: 24px;
     color: #fff;
 }
 
-#menu li a:hover { border-color: #fff; }
+#menu li a:hover { 
+    text-decoration: underline;
+}
 
 #menu li a i { 
     font-size: 24px;
@@ -336,9 +336,10 @@ li { list-style: none; }
     .menu {
         position: inherit;
         width: 100%;
-        height: 50vh;
+        height: 75vh;
     }
     .menu-button {
+        display: none;
         font-size: 62px;
     }
     #menu .box {
@@ -352,14 +353,13 @@ li { list-style: none; }
         width: 100%;
     }
     #menu ul {
-        top: 10%;
         text-align: center;
     }
     #menu li a i { 
         font-size: 36px;
     }
     #menu li.link a { 
-        font-size: 2em;
+        font-size: 12vh;
     }
     .profile:focus .text-content {
         opacity: 1;
@@ -378,48 +378,17 @@ li { list-style: none; }
     }
 }
 
-@media screen and ( max-height: 750px ) { 
+@media screen and ( max-height: 850px ) { 
     #menu ul {
-        top: 10%;
         text-align: center;
     }
     #menu li.link { 
     }
     #menu li.link a { 
-        font-size: 1em;
+        font-size: 12vh;
     }
    .logo {
         top: 5px;
-    }
-
-}
-
-@media screen and ( max-height: 630px ) { 
-    #menu {
-        min-height: 350px;
-    }
-    .band-name{
-        height: 70%
-    }
-    #menu ul {
-        top: 20%;
-        text-align: center;
-    }
-    #menu li.link { 
-        display: inline-block;
-        text-align: center;
-    }
-    #menu li.link a { 
-        font-size: 1em;
-    }
-    .post {
-        height: auto;
-        margin-bottom: 100px;
-        margin-top: 100px;
-    }
-    .logo {
-        top: 5px;
-        margin-bottom: 30px;
     }
 
 }
